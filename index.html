@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-Project2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b111dbdac4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form" id="search-form">
+        <input type="text" value="city" id="search-input" />
+        <input type="submit" value="Search" class="search-button" />
+      </form>
+
+      <div class="center-feature">
+        <h1 style="font-size: 6vw" id="searched-city">Sydney</h1>
+        <span class="weather-icon">🌤</span>
+        <h2 style="font-size: 4vw" id="current-temp">27°C</h2>
+        <div class="convertTemp">
+          <a href="#" id="celsius-link">C</a>
+          <a href="#" id="fahrenheit-link">F</a>
+        </div>
+        <h3 style="font-size: 3vw" id="current-date">Sunday</h3>
+        <span style="font-size: 2vw" id="current-time"> 12:00</span>
+        <button style="font-size: 2vw" id="current-location">
+          Current Location
+        </button>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <span class="days">
+            <br />
+            Monday
+            <br />
+            Tuesday
+            <br />
+            Wednesday
+            <br />
+            Thursday
+            <br />
+            Friday
+          </span>
+        </div>
+        <div class="col">
+          <div class="emoji">
+            <br />
+            🌤
+            <br />
+            🌤
+            <br />
+            🌥
+            <br />
+            🌦
+            <br />
+            🌧
+          </div>
+        </div>
+        <div class="col">
+          <div class="min-temp">
+            <strong>min.</strong>
+            <br />
+            17°C
+            <br />
+            16°C
+            <br />
+            14°C
+            <br />
+            12°C
+            <br />
+            10°C
+          </div>
+        </div>
+        <div class="col">
+          <div class="max-temp">
+            <strong>max.</strong>
+            <br />
+            28°C
+            <br />
+            25°C
+            <br />
+            23°C
+            <br />
+            21°C
+            <br />
+            19°C
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+.container {
+  background: linear-gradient(to top, #accbee 0%, #e7f0fd 10%);
+  border: 1px transparent grey;
+  border-radius: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.form {
+  margin: 40px 0 30px 30px;
+}
+
+.search-button {
+  color: white;
+  background-color: rgba(54, 78, 104, 0.9);
+  border-radius: 4px;
+}
+
+h1,
+h2,
+h3,
+.button {
+  color: rgba(54, 78, 104, 0.9);
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.weather-icon,
+#current-time {
+  color: rgba(54, 78, 104, 0.9);
+  display: block;
+  font-size: 40px;
+  text-align: center;
+}
+
+.center-feature {
+  background-color: rgb(230, 242, 253);
+  border: 2px solid rgba(85, 129, 175, 0.1);
+  border-radius: 20%;
+  margin: auto 60px;
+  padding: 60px 0;
+}
+
+.convertTemp {
+  display: inline block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#current-location {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  color: white;
+  background-color: rgba(54, 78, 104, 0.9);
+  border-radius: 4px;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.col {
+  color: rgba(54, 78, 104, 1);
+  display: block;
+}
+
+.days,
+.emoji {
+  display: block;
+  line-height: 40px;
+  text-align: center;
+}
+
+.days {
+  font-size: larger;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.emoji {
+  font-size: 30px;
+}
+
+.min-temp,
+.max-temp {
+  display: block;
+  font-size: larger;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 40px;
+}
+
+.min-temp {
+  text-align: right;
+}
+
+.max {
+  margin-right: 20px;
+  text-align: left;
+}
