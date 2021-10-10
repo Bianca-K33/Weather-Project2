@@ -62,5 +62,10 @@ function showPosition(position) {
   axios.get(apiUrl).then(showTemp);
 }
 
+function getPosition(event) {
+  event.preventDefault();
+  navigator.geolocation.getCurrentPosition(showPosition);
+}
+
 let button = document.querySelector("button");
-button.addEventListener("click", showPosition);
+button.addEventListener("click", getPosition);

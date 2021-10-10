@@ -1,5 +1,5 @@
 .container {
-  background: linear-gradient(to top, #accbee 0%, #e7f0fd 10%);
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   border: 1px transparent grey;
   border-radius: 40px;
   margin-top: 30px;
@@ -30,7 +30,6 @@ h1 {
   font-size: 50px;
 }
 
-.weather-icon,
 #current-time {
   color: rgba(54, 78, 104, 0.9);
   display: block;
@@ -39,11 +38,18 @@ h1 {
 }
 
 .center-feature {
-  background-color: rgb(230, 242, 253);
   border: 2px solid rgba(85, 129, 175, 0.1);
   border-radius: 20%;
   margin: auto 60px;
   padding: 60px 0;
+}
+
+#main-icon {
+  color: #ffc93b;
+  display: block;
+  font-size: 50px;
+  margin: 25px auto 25px;
+  text-align: center;
 }
 
 .convertTemp {
@@ -100,4 +106,17 @@ h1 {
 .max {
   margin-right: 20px;
   text-align: left;
+}
+
+#sun {
+  color: #ffc93b;
+}
+
+a {
+  text-decoration: none;
+}
+.byLine {
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center;
 }

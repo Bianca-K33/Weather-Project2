@@ -25,6 +25,10 @@
 
     <link rel="stylesheet" href="src/styles.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b111dbdac4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
@@ -35,7 +39,7 @@
 
       <div class="center-feature">
         <h1 style="font-size: 6vw" id="searched-city">Sydney</h1>
-        <span class="weather-icon">🌤</span>
+        <span> <i class="far fa-sun" id="main-icon"></i></span>
         <h2 style="font-size: 4vw" id="current-temp">27°C</h2>
         <div class="convertTemp">
           <a href="#" id="celsius-link">C</a>
@@ -66,15 +70,15 @@
         <div class="col">
           <div class="emoji">
             <br />
-            🌤
+            <i class="far fa-sun" id="sun"></i>
             <br />
-            🌤
+            <i class="fas fa-cloud-sun"></i>
             <br />
-            🌥
+            <i class="fas fa-cloud-sun-rain"></i>
             <br />
-            🌦
+            <i class="fas fa-cloud-showers-heavy" id="rain"></i>
             <br />
-            🌧
+            <i class="fas fa-cloud-showers-heavy" id="rain"></i>
           </div>
         </div>
         <div class="col">
@@ -109,7 +113,11 @@
         </div>
       </div>
     </div>
-
+    <span class="byLine">
+      <a href="https://github.com/Bianca-K33" target="_blank">
+        Open-source code</a
+      >, By Bianca K
+    </span>
     <script src="src/index.js"></script>
   </body>
 </html>
